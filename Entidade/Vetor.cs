@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleVetor2.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Text;
 
 namespace ConsoleVetor2.Entidade
 {
-    class Vetor
+    class Vetor: IVetor
     {
         private double Sum;
         private double Resultado { get; set; }
